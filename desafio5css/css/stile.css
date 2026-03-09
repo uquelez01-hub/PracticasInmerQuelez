@@ -1,0 +1,21 @@
+.tarjerta{
+    border-style: solid;
+    border-radius: 10xp;
+    border-color: goldenrod;
+    border-width: 2xp;
+
+
+    width: 50%;
+
+    margin: 25xp auto 25xp;
+
+    padding: 10xp;
+
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+img{
+    width: 75%;
+}
