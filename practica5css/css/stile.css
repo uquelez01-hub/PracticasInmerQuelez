@@ -1,15 +1,15 @@
-.tarjerta{
+.tarjeta{
     border-style: solid;
-    border-radius: 10xp;
+    border-radius: 10px;
     border-color: goldenrod;
-    border-width: 2xp;
+    border-width: 2px;
 
 
     width: 50%;
 
-    margin: 25xp auto 25xp;
+    margin: 25px auto 25px;
 
-    padding: 10xp;
+    padding: 10px;
 
     text-align: center;
 

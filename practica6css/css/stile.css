@@ -3,26 +3,27 @@
     border-radius: 10px;
     border-color: goldenrod;
     border-width: 2px;
-    color: white;
 
 
-    width: 50%;
+    width: 15%;
 
-    margin: 40px auto 40px;
+    margin: 25px auto 25px;
 
-    padding: 100px;
+    padding: 10px;
 
     text-align: center;
 
     box-sizing: border-box;
-}
-h1{
-    color: white;
-}
-body{
-    background-color: black;
+
+    display: inline-block;
 }
 
 img{
     width: 75%;
+    height: 200px;
+}
+
+.oculto{
+    /*visibility: hidden;*/
+    display: none;    
 }
