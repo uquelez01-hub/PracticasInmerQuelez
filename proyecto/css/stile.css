@@ -1,0 +1,40 @@
+
+body{
+font-family: Arial;
+margin:0;
+background:#111;
+color:white;
+}
+
+header{
+background:orange;
+padding:20px;
+text-align:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+nav a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+section{
+padding:40px;
+}
+
+img{
+border-radius:10px;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+}
