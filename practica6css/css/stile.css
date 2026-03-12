@@ -18,6 +18,12 @@
     display: inline-block;
 }
 
+h1{
+    color: black;
+}
+body{
+    background-color: lightblue;
+}
 img{
     width: 75%;
     height: 200px;
