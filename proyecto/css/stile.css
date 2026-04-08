@@ -38,3 +38,118 @@ background:black;
 text-align:center;
 padding:20px;
 }
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+section {
+    padding: 40px;
+}
+
+img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: orange;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: orange;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imagenes img {
+    width: 30%;
+    margin: 10px;
+    object-fit: cover;
+}
+h1{
+    font-family: "playfair Display" , serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 7rem;
+}
+
+h2{
+    font-family: "playfair Display" , serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2rem;
+}
